@@ -1,0 +1,16 @@
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\bin\Debug\netstandard2.0\boxScanner.deps.json
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\bin\Debug\netstandard2.0\boxScanner.dll
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\bin\Debug\netstandard2.0\boxScanner.pdb
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\boxScanner.csprojAssemblyReference.cache
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\BoxContent.xaml.g.cs
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\BoxEdit.xaml.g.cs
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\ScanPage.xaml.g.cs
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\boxScanner.csproj.CoreCompileInputs.cache
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\boxScanner.AssemblyInfoInputs.cache
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\boxScanner.AssemblyInfo.cs
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\boxScanner.dll
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\boxScanner.pdb
+F:\Code\boxScanner\boxScanner\boxScanner\boxScanner\obj\Debug\netstandard2.0\AddToBox.xaml.g.cs

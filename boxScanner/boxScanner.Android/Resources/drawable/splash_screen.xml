@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <color android:color="@color/splash_background"/>
+  </item>
+  <item android:left="20dp"
+        android:top="20dp"
+        android:height="100dp"
+        android:width="100dp">
+    <bitmap
+        android:src="@drawable/box"
+        android:tileMode="disabled"
+        android:gravity="right"
+        />
+  </item>
+</layer-list>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="boxScanner.BoxContent"
+             Title="{Binding Name, StringFormat='Box: {0}'}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="EditBox" Order="Primary" Icon="assets/edit.png" Text="Edit" Priority="0"  Clicked="EditboxInfo" />
+        <ToolbarItem Name="AddToBox" Order="Primary" Icon="assets/add.png" Text="Add" Priority="1"  Clicked="AddToBox" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <Label Text="ID:" FontSize="Medium" />
+            <Label Text="{Binding BoxId}" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="Detail:" FontSize="Medium" />
+            <Label Text="{Binding BoxDetail}" FontSize="Medium" FontAttributes="Bold" />
+            <ListView x:Name="listView" Margin="5" ItemSelected="OnListItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding Name}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
